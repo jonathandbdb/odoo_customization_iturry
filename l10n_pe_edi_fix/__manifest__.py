@@ -24,6 +24,7 @@ a SUNAT/OSE:
    El fix coacciona los valores a `str` antes de ser usados.
     """,
     "category": "Accounting/Localizations/EDI",
+
     "license": "OPL-1",
     "depends": ["l10n_pe_edi"],
     "data": [],

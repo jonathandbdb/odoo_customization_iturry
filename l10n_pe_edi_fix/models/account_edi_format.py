@@ -4,13 +4,15 @@ import time
 import traceback
 
 from lxml import etree, objectify
-from zeep import Client as _ZeepClient, Settings
-from zeep.transports import Transport as _ZeepTransport
-from requests.exceptions import ConnectionError as ReqConnectionError, HTTPError, ReadTimeout
-
-from odoo import api, models, _
-from odoo.tools import html_escape
 from odoo.addons.l10n_pe_edi.models import account_edi_format as _aef
+from odoo.tools import html_escape
+from requests.exceptions import ConnectionError as ReqConnectionError
+from requests.exceptions import HTTPError, ReadTimeout
+from zeep import Client as _ZeepClient
+from zeep import Settings
+from zeep.transports import Transport as _ZeepTransport
+
+from odoo import _, api, models
 
 _logger = logging.getLogger(__name__)
 
