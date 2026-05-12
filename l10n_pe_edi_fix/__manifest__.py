@@ -24,9 +24,6 @@ a SUNAT/OSE:
    El fix coacciona los valores a `str` antes de ser usados.
     """,
     "category": "Accounting/Localizations/EDI",
-    "author": "NEXIT",
-    "website": "https://www.nexit.com.uy",
-    "license": "OPL-1",
     "depends": ["l10n_pe_edi"],
     "data": [],
     "installable": True,
