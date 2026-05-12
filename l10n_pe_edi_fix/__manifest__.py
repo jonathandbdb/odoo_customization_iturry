@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "l10n_pe_edi_fix",
-    "version": "19.0.1.0.0",
+    "version": "19.0.1.0.1",
     "summary": "Parche para envío de comprobantes electrónicos SUNAT (Perú) en Odoo 19",
     "description": """
 Parche del módulo Enterprise `l10n_pe_edi` para Odoo 19.
